@@ -28,14 +28,14 @@ A free .NET decompiler and assembly inspector that reconstructs readable C# from
 ## Download & run
 
 1. Grab the latest build from [Releases](https://github.com/Delta1-labs/glass-releases/releases/latest).
-2. Unzip and run **`Glass.exe`** — it's self-contained, so **no .NET runtime is required**.
+2. Unzip and run Glass (**`Glass.exe`** on Windows) — it's self-contained, so **no .NET runtime is required**.
 
-> Windows build available today; Linux and macOS builds are on the way (the app is built on Avalonia and is cross-platform by design).
+> Builds are published for **Windows (win-x64), Linux (linux-x64), and macOS (Intel osx-x64 and Apple Silicon osx-arm64)** — the app is built on Avalonia and is cross-platform by design.
 > Newly released, unsigned builds may trigger a SmartScreen/antivirus reputation prompt; reputation builds over time.
 
 ## Status
 
-Early preview (v0.x): loading + decompilation + the VS-native workspace are working. Full VS code navigation (Go to Definition, Find All References, Call/Type Hierarchy), Go-to-All search, and the Nebula.NET "exposure report" audit mode are in active development — see the [changelog](./CHANGELOG.md).
+Stable (v1.2.0). Loading, decompilation, and the VS-native workspace are joined by full VS code navigation (Go to Definition, Find All References, Call & Type Hierarchy), Go-to-All search, the IL output view, project export to a buildable SDK-style C# project, CycloneDX SBOM export, and the Nebula.NET "exposure report" audit mode — all shipped. See the [changelog](./CHANGELOG.md).
 
 ## Links
 
